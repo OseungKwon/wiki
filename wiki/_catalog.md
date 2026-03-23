@@ -28,3 +28,6 @@
 | ai/mcp/mcp-tool-token-consumption.md | MCP 도구 호출과 토큰 소모 구조 | mcp, token, optimization, claude-code |
 
 | frontend/javascript/iterator-helpers.md | JavaScript Iterator Helpers | javascript, iterator, lazy-evaluation, ecmascript-2025 |
+
+| devops/git/github-multiple-ssh-accounts.md | GitHub 여러 계정 SSH 등록 | git, github, ssh, authentication |
+| concepts/networking/ssh.md | SSH (Secure Shell) | networking, security, ssh, authentication |

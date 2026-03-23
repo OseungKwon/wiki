@@ -11,14 +11,14 @@
             "id": "34f2f34fda59f737",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "wiki/frontend/javascript/iterator-helpers.md",
-                "mode": "source",
-                "source": false
+                "aFile": "wiki/_catalog.md",
+                "bFile": "wiki/_catalog.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "iterator-helpers"
+              "icon": "diff",
+              "title": "Diff: _catalog  (Working Tree)"
             }
           }
         ]
@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of Welcome"
             }
+          },
+          {
+            "id": "e21251b9cffd6211",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,13 +190,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "34f2f34fda59f737",
   "lastOpenFiles": [
-    "wiki/frontend/javascript/proxy.md",
     "wiki/frontend/javascript/iterator-helpers.md",
+    "wiki/concepts/networking/ssh.md",
+    "wiki/concepts/networking",
+    "wiki/concepts",
+    "wiki/devops/git/github-multiple-ssh-accounts.md",
+    "wiki/frontend/javascript/proxy.md",
     "wiki/devops/claude-code/hooks.md",
     "wiki/ai/mcp/mcp-tool-token-consumption.md",
     "wiki/ai/mcp",
@@ -215,8 +230,6 @@
     "wiki/devops/git",
     "wiki/frontend/react-router-v7",
     "wiki/frontend/web-api/url-search-params.md",
-    "wiki/frontend/web-api",
-    "wiki/frontend",
     "wiki/_catalog.md"
   ]
 }
