@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ffc5f054388d8f28",
+        "id": "a15a031626cbfa85",
         "type": "tabs",
         "children": [
           {
-            "id": "34f2f34fda59f737",
+            "id": "c82c350df807550e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "wiki/_catalog.md",
-                "bFile": "wiki/_catalog.md",
-                "aRef": ""
+                "file": "wiki/devops/git/github-multiple-ssh-accounts.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: _catalog  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "github-multiple-ssh-accounts"
             }
           }
         ]
@@ -194,8 +194,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "34f2f34fda59f737",
+  "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/devops/git/github-merge-strategies.md",
     "wiki/frontend/javascript/iterator-helpers.md",
     "wiki/concepts/networking/ssh.md",
     "wiki/concepts/networking",
@@ -210,7 +211,6 @@
     "wiki/ai/prompting/claude-prompt-optimization.md",
     "wiki/ai/prompting/claude-prompting-best-practices.md",
     "wiki/devops/claude-code/wiki-plugin.md",
-    "wiki/devops/git/github-merge-strategies.md",
     "wiki/devops/git/rebase.md",
     "wiki/devops/git/stacked-prs-rebase-onto.md",
     "wiki/devops/mcp/obsidian-mcp-claude-code.md",
