@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "c82cb88876cd5fa7",
+    "type": "split",
+    "children": [
+      {
+        "id": "ffc5f054388d8f28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34f2f34fda59f737",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/frontend/javascript/iterator-helpers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "iterator-helpers"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "709f3fd23750768a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9c9e25b4c420d12",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dbefc6e734d8320",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "388911ba463a8c31",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "89433a2bd426c7aa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f1c995c1e6f8333c",
+    "type": "split",
+    "children": [
+      {
+        "id": "c36866d12c9a6360",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c919fe7231911d54",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "8086f856f2f55f98",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "58e078efe57f6dbe",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f89f5e3c2527a3b1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fd089a0f88ab8ad7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "34f2f34fda59f737",
+  "lastOpenFiles": [
+    "wiki/frontend/javascript/proxy.md",
+    "wiki/frontend/javascript/iterator-helpers.md",
+    "wiki/devops/claude-code/hooks.md",
+    "wiki/ai/mcp/mcp-tool-token-consumption.md",
+    "wiki/ai/mcp",
+    "wiki/devops/obsidian/github-sync.md",
+    "wiki/devops/package-manager/pnpm-store-and-comparison.md",
+    "wiki/ai/prompting/claude-prompt-optimization.md",
+    "wiki/ai/prompting/claude-prompting-best-practices.md",
+    "wiki/devops/claude-code/wiki-plugin.md",
+    "wiki/devops/git/github-merge-strategies.md",
+    "wiki/devops/git/rebase.md",
+    "wiki/devops/git/stacked-prs-rebase-onto.md",
+    "wiki/devops/mcp/obsidian-mcp-claude-code.md",
+    "wiki/devops/package-manager",
+    "Untitled 1.base",
+    "Untitled.canvas",
+    "2026-03-18.md",
+    "wiki/frontend/react-router-v7/loader-action.md",
+    "wiki/frontend/library/valtio.md",
+    "wiki/frontend/library/mobx.md",
+    "wiki/frontend/library",
+    "wiki/frontend/javascript",
+    "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md",
+    "Untitled.base",
+    "claude-prompting-best-practices.md",
+    "Welcome.md",
+    "wiki/devops/git",
+    "wiki/frontend/react-router-v7",
+    "wiki/frontend/web-api/url-search-params.md",
+    "wiki/frontend/web-api",
+    "wiki/frontend",
+    "wiki/_catalog.md"
+  ]
+}
