@@ -23,13 +23,7 @@ updated: 2026-03-23
 
 접속 시 서버가 공개키로 암호화한 질문을 보내면, 개인키로만 복호화할 수 있어 본인 인증이 된다.
 
-### HTTPS vs SSH
-
-| HTTPS | SSH |
-|-------|-----|
-| 매번 ID/PW 또는 토큰 입력 | 한번 키 등록하면 자동 인증 |
-| `https://github.com/...` | `git@github.com:...` |
-
+### Git HTTPS vs SSH
 ### 기본 사용 흐름
 
 ```bash
