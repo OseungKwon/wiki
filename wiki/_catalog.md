@@ -31,3 +31,5 @@
 
 | devops/git/github-multiple-ssh-accounts.md | GitHub 여러 계정 SSH 등록 | git, github, ssh, authentication |
 | concepts/networking/ssh.md | SSH (Secure Shell) | networking, security, ssh, authentication |
+
+| frontend/analytics/declarative-tracking.md | Declarative Tracking - 선언적 트래킹 패턴 | analytics, tracking, dom, mutation-observer, intersection-observer, design-pattern |

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/devops/claude-code/wiki-plugin.md",
+                "file": "wiki/frontend/analytics/declarative-tracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wiki-plugin"
+              "title": "declarative-tracking"
             }
           }
         ]
@@ -196,40 +196,41 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
-    "wiki/concepts/networking/ssh.md",
+    "wiki/frontend/web-api/url-search-params.md",
+    "wiki/frontend/analytics/declarative-tracking.md",
+    "wiki/frontend/analytics",
+    "Untitled.base",
+    "wiki/_catalog.md",
+    "2026-03-18.md",
+    "Untitled 1.base",
+    "Untitled.canvas",
+    "wiki/devops/claude-code/hooks.md",
+    "wiki/devops/claude-code/wiki-plugin.md",
+    "wiki/devops/git/stacked-prs-rebase-onto.md",
+    "wiki/devops/git/rebase.md",
     "wiki/devops/git/github-multiple-ssh-accounts.md",
     "wiki/devops/git/github-merge-strategies.md",
+    "wiki/concepts/networking/ssh.md",
     "wiki/frontend/javascript/iterator-helpers.md",
     "wiki/concepts/networking",
     "wiki/concepts",
     "wiki/frontend/javascript/proxy.md",
-    "wiki/devops/claude-code/hooks.md",
     "wiki/ai/mcp/mcp-tool-token-consumption.md",
     "wiki/ai/mcp",
     "wiki/devops/obsidian/github-sync.md",
     "wiki/devops/package-manager/pnpm-store-and-comparison.md",
     "wiki/ai/prompting/claude-prompt-optimization.md",
     "wiki/ai/prompting/claude-prompting-best-practices.md",
-    "wiki/devops/claude-code/wiki-plugin.md",
-    "wiki/devops/git/rebase.md",
-    "wiki/devops/git/stacked-prs-rebase-onto.md",
     "wiki/devops/mcp/obsidian-mcp-claude-code.md",
     "wiki/devops/package-manager",
-    "Untitled 1.base",
-    "Untitled.canvas",
-    "2026-03-18.md",
     "wiki/frontend/react-router-v7/loader-action.md",
     "wiki/frontend/library/valtio.md",
     "wiki/frontend/library/mobx.md",
     "wiki/frontend/library",
     "wiki/frontend/javascript",
     "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md",
-    "Untitled.base",
     "claude-prompting-best-practices.md",
     "Welcome.md",
-    "wiki/devops/git",
-    "wiki/frontend/react-router-v7",
-    "wiki/frontend/web-api/url-search-params.md",
-    "wiki/_catalog.md"
+    "wiki/devops/git"
   ]
 }
