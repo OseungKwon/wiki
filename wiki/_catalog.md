@@ -33,3 +33,7 @@
 | concepts/networking/ssh.md | SSH (Secure Shell) | networking, security, ssh, authentication |
 
 | frontend/analytics/declarative-tracking.md | Declarative Tracking - 선언적 트래킹 패턴 | analytics, tracking, dom, mutation-observer, intersection-observer, design-pattern |
+
+| frontend/react/rsc-async-optimization.md | RSC 비동기 최적화 | react, rsc, server-components, async, performance, next-js, caching |
+
+| frontend/deployment/edge-computing.md | 프론트엔드 Edge Computing | edge, middleware, serverless, deployment, performance |

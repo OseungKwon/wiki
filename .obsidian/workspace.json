@@ -196,6 +196,10 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/deployment/edge-computing.md",
+    "wiki/frontend/deployment",
+    "wiki/frontend/react/rsc-async-optimization.md",
+    "wiki/frontend/react",
     "wiki/frontend/web-api/url-search-params.md",
     "wiki/frontend/analytics/declarative-tracking.md",
     "wiki/frontend/analytics",
@@ -227,10 +231,7 @@
     "wiki/frontend/library/valtio.md",
     "wiki/frontend/library/mobx.md",
     "wiki/frontend/library",
-    "wiki/frontend/javascript",
     "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md",
-    "claude-prompting-best-practices.md",
-    "Welcome.md",
-    "wiki/devops/git"
+    "claude-prompting-best-practices.md"
   ]
 }
