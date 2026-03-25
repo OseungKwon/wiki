@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/frontend/react/rsc-async-optimization.md",
+                "file": "wiki/frontend/analytics/declarative-tracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rsc-async-optimization"
+              "title": "declarative-tracking"
             }
           }
         ]
@@ -196,10 +196,10 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/react/rsc-async-optimization.md",
     "wiki/frontend/analytics/declarative-tracking.md",
     "wiki/frontend/deployment/edge-computing.md",
     "wiki/frontend/deployment",
-    "wiki/frontend/react/rsc-async-optimization.md",
     "wiki/frontend/react",
     "wiki/frontend/web-api/url-search-params.md",
     "wiki/frontend/analytics",
