@@ -196,6 +196,7 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/web-api/mutation-observer.md",
     "wiki/frontend/react/rsc-async-optimization.md",
     "wiki/frontend/analytics/declarative-tracking.md",
     "wiki/frontend/deployment/edge-computing.md",
@@ -231,7 +232,6 @@
     "wiki/frontend/library/valtio.md",
     "wiki/frontend/library/mobx.md",
     "wiki/frontend/library",
-    "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md",
-    "claude-prompting-best-practices.md"
+    "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md"
   ]
 }
