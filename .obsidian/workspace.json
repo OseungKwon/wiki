@@ -196,6 +196,8 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
+    "wiki/frontend/nextjs",
     "wiki/frontend/javascript/cancel-reschedule-pattern.md",
     "wiki/frontend/browser/scheduler-api.md",
     "wiki/frontend/web-api/request-animation-frame.md",
@@ -230,8 +232,6 @@
     "wiki/ai/mcp/mcp-tool-token-consumption.md",
     "wiki/ai/mcp",
     "wiki/devops/obsidian/github-sync.md",
-    "wiki/devops/package-manager/pnpm-store-and-comparison.md",
-    "wiki/ai/prompting/claude-prompt-optimization.md",
-    "wiki/devops/package-manager"
+    "wiki/devops/package-manager/pnpm-store-and-comparison.md"
   ]
 }

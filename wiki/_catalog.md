@@ -48,3 +48,4 @@
 | frontend/web-api/request-animation-frame.md | requestAnimationFrame 심화 | javascript, web-api, animation, performance, batching |
 | frontend/browser/scheduler-api.md | Scheduler API | javascript, web-api, performance, scheduling |
 | frontend/javascript/cancel-reschedule-pattern.md | Cancel+Reschedule 패턴 | javascript, pattern, performance, debounce, request-animation-frame |
+| frontend/nextjs/axios-fetch-adapter-post-400.md | Axios Fetch Adapter - Node.js POST 400 에러 | axios, fetch, next-js, node-js, troubleshooting |
