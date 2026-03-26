@@ -192,3 +192,4 @@ rAF는 렌더링 직전에 실행되므로, 애니메이션 로직에 정확한 
 - [MDN - Critical Rendering Path](https://developer.mozilla.org/en-US/docs/Web/Performance/Critical_rendering_path)
 - [HTML Spec - Event Loop Processing Model](https://html.spec.whatwg.org/multipage/webappapis.html#event-loop-processing-model)
 - [[javascript/proxy|Proxy]], [[web-api/mutation-observer|MutationObserver]]
+
