@@ -43,3 +43,8 @@
 | frontend/react/use-effect-cleanup-arrow-function.md | useEffect cleanup과 화살표 함수 패턴 | react, hooks, use-effect, cleanup, arrow-function |
 
 | frontend/javascript/weakmap.md | WeakMap | javascript, weakmap, memory-management, data-structure |
+
+| frontend/browser/rendering-pipeline.md | 브라우저 렌더링 파이프라인 | browser, rendering, event-loop, microtask, performance |
+| frontend/web-api/request-animation-frame.md | requestAnimationFrame 심화 | javascript, web-api, animation, performance, batching |
+| frontend/browser/scheduler-api.md | Scheduler API | javascript, web-api, performance, scheduling |
+| frontend/javascript/cancel-reschedule-pattern.md | Cancel+Reschedule 패턴 | javascript, pattern, performance, debounce, request-animation-frame |

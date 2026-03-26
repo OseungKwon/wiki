@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/frontend/analytics/declarative-tracking.md",
+                "file": "wiki/frontend/browser/rendering-pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "declarative-tracking"
+              "title": "rendering-pipeline"
             }
           }
         ]
@@ -196,11 +196,16 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/javascript/cancel-reschedule-pattern.md",
+    "wiki/frontend/browser/scheduler-api.md",
+    "wiki/frontend/web-api/request-animation-frame.md",
+    "wiki/frontend/analytics/declarative-tracking.md",
+    "wiki/frontend/browser/rendering-pipeline.md",
+    "wiki/frontend/browser",
     "wiki/frontend/javascript/weakmap.md",
     "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
     "wiki/frontend/web-api/mutation-observer.md",
     "wiki/frontend/react/rsc-async-optimization.md",
-    "wiki/frontend/analytics/declarative-tracking.md",
     "wiki/frontend/deployment/edge-computing.md",
     "wiki/frontend/deployment",
     "wiki/frontend/react",
@@ -227,11 +232,6 @@
     "wiki/devops/obsidian/github-sync.md",
     "wiki/devops/package-manager/pnpm-store-and-comparison.md",
     "wiki/ai/prompting/claude-prompt-optimization.md",
-    "wiki/ai/prompting/claude-prompting-best-practices.md",
-    "wiki/devops/mcp/obsidian-mcp-claude-code.md",
-    "wiki/devops/package-manager",
-    "wiki/frontend/react-router-v7/loader-action.md",
-    "wiki/frontend/library/valtio.md",
-    "wiki/frontend/library"
+    "wiki/devops/package-manager"
   ]
 }
