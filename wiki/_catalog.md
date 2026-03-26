@@ -39,3 +39,5 @@
 | frontend/deployment/edge-computing.md | 프론트엔드 Edge Computing | edge, middleware, serverless, deployment, performance |
 
 | frontend/web-api/mutation-observer.md | MutationObserver | javascript, web-api, dom, observer |
+
+| frontend/react/use-effect-cleanup-arrow-function.md | useEffect cleanup과 화살표 함수 패턴 | react, hooks, use-effect, cleanup, arrow-function |
