@@ -41,3 +41,5 @@
 | frontend/web-api/mutation-observer.md | MutationObserver | javascript, web-api, dom, observer |
 
 | frontend/react/use-effect-cleanup-arrow-function.md | useEffect cleanup과 화살표 함수 패턴 | react, hooks, use-effect, cleanup, arrow-function |
+
+| frontend/javascript/weakmap.md | WeakMap | javascript, weakmap, memory-management, data-structure |

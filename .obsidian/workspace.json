@@ -196,6 +196,7 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/javascript/weakmap.md",
     "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
     "wiki/frontend/web-api/mutation-observer.md",
     "wiki/frontend/react/rsc-async-optimization.md",
@@ -231,7 +232,6 @@
     "wiki/devops/package-manager",
     "wiki/frontend/react-router-v7/loader-action.md",
     "wiki/frontend/library/valtio.md",
-    "wiki/frontend/library/mobx.md",
     "wiki/frontend/library"
   ]
 }
