@@ -49,3 +49,4 @@
 | frontend/browser/scheduler-api.md | Scheduler API | javascript, web-api, performance, scheduling |
 | frontend/javascript/cancel-reschedule-pattern.md | Cancel+Reschedule 패턴 | javascript, pattern, performance, debounce, request-animation-frame |
 | frontend/nextjs/axios-fetch-adapter-post-400.md | Axios Fetch Adapter - Node.js POST 400 에러 | axios, fetch, next-js, node-js, troubleshooting |
+| devops/claude-code/architecture-patterns.md | Claude Code 시스템과 소프트웨어 아키텍처 패턴 | claude-code, architecture, design-pattern, context-engineering |
