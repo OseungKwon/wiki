@@ -7,6 +7,21 @@ last_solved: 2026-03-30
 ---
 
 ## 핵심 패턴
+## 서브패턴 현황
+
+| 서브패턴 | 수준 | 경험 | pass_rate | 대표 문제 |
+|----------|------|------|-----------|----------|
+| In-place manipulation | F | X | — | Remove Duplicates from Sorted Array |
+| Prefix Sum | F | O | 100% | Product of Array Except Self |
+| Kadane's Algorithm | F | X | — | Maximum Subarray |
+| Dutch National Flag | F | X | — | Sort Colors |
+| Rotate / Reverse | F | X | — | Rotate Array |
+| Boyer-Moore Voting | I | X | — | Majority Element |
+| Difference Array | I | X | — | Range Addition |
+| Interval Merge / Sweep Line | I | X | — | Merge Intervals |
+| Matrix Traversal | I | X | — | Spiral Matrix |
+| String Matching (KMP/Rabin-Karp) | A | X | — | Implement strStr() |
+
 
 ### 1. Prefix/Suffix 누적 (곱, 합)
 - 언제: 자기 자신을 제외한 나머지 원소의 연산 결과가 필요할 때
@@ -49,8 +64,9 @@ return [...map.values()];
 - [ ] Map → Array 변환 시 수동 push → `[...map.values()]`로 간소화
 
 ## 풀이 목록
+## 풀이 목록
 
-| 날짜 | 문제 | 난이도 | 결과 | 소요시간 | 링크 |
-|------|------|--------|------|----------|------|
-| 2026-03-30 | Product of Array Except Self | medium | pass (힌트) | - | [[2026-03-30-product-of-array-except-self]] |
-| 2026-03-30 | Group Anagrams | medium | pass | - | [[2026-03-30-group-anagrams]] |
+| 날짜 | 문제 | 서브패턴 | 난이도 | 결과 | 소요시간 | 링크 |
+|------|------|----------|--------|------|----------|------|
+| 2026-03-30 | Product of Array Except Self | Prefix Sum | medium | pass (힌트) | - | [[2026-03-30-product-of-array-except-self]] |
+| 2026-03-30 | Group Anagrams | Grouping/Bucketing | medium | pass | - | [[2026-03-30-group-anagrams]] |

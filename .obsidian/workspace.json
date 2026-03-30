@@ -196,6 +196,8 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/coding-test/_keep.md",
+    "wiki/coding-test/_recommendation-rules.md",
     "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
     "wiki/coding-test/categories/array-string/_index.md",
     "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
@@ -230,8 +232,6 @@
     "wiki/devops/claude-code/wiki-plugin.md",
     "wiki/devops/git/stacked-prs-rebase-onto.md",
     "wiki/devops/git/rebase.md",
-    "wiki/devops/git/github-multiple-ssh-accounts.md",
-    "wiki/devops/git/github-merge-strategies.md",
-    "wiki/concepts/networking/ssh.md"
+    "wiki/devops/git/github-multiple-ssh-accounts.md"
   ]
 }
