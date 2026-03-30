@@ -6,7 +6,7 @@ tags:
   - git
   - sync
 created: 2026-03-17
-updated: 2026-03-17
+updated: 2026-03-30
 ---
 
 ## 정의
@@ -64,6 +64,30 @@ git push -u origin main
 | PC/Mac | GitHub Desktop 또는 CLI로 클론 |
 | iOS | Working Copy 앱으로 저장소 클론 |
 | Android | Termux에서 git clone |
+
+
+### 새 컴퓨터에서 연동 절차
+
+**Step 1. GitHub 저장소 클론**
+```bash
+cd ~/Documents
+git clone https://github.com/<username>/<repo>.git "Obsidian Vault"
+```
+
+**Step 2. Obsidian에서 Vault 열기**
+- Obsidian 실행 → **Open folder as vault** → 클론한 폴더 선택
+
+**Step 3. Obsidian Git 플러그인 설치**
+- 설정 → Community plugins → Browse → **"Obsidian Git"** 검색 → 설치 및 활성화
+- `.obsidian/plugins/` 설정이 동기화되어 있어도, 플러그인 자체는 새로 설치해야 활성화됨
+
+**Step 4. 플러그인 설정 확인**
+- 동기화된 설정이 자동 반영되므로 별도 설정 불필요
+- Auto backup interval, Pull on startup 등이 기존과 동일한지 확인만 하면 됨
+
+**주의사항**
+- `.obsidian/workspace.json`은 `.gitignore`에 포함되어 기기별 충돌 없음
+- **편집 전 항상 Pull 먼저** — 충돌 방지의 핵심
 
 ## 트러블슈팅
 - **충돌 발생 시**: Pull on startup을 활성화하고, 편집 전 항상 최신 상태를 풀받는 습관 필요

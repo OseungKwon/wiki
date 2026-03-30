@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/frontend/browser/rendering-pipeline.md",
+                "file": "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "rendering-pipeline"
+              "title": "axios-fetch-adapter-post-400"
             }
           }
         ]
@@ -196,6 +196,17 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/frontend/nextjs/caching-and-data-fetching.md",
+    "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
+    "wiki/frontend/nextjs/rendering-lifecycle.md",
+    "wiki/frontend/nextjs/infrastructure-and-deployment.md",
+    "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
+    "wiki/frontend/deployment/edge-computing.md",
+    "wiki/backend/node/libuv.md",
+    "wiki/frontend/browser/rendering-pipeline.md",
+    "wiki/backend/node/libuv-thread-pool.md",
+    "wiki/backend/node",
+    "wiki/backend",
     "wiki/devops/claude-code/architecture-patterns.md",
     "wiki/devops/git/github-merge-strategies.md",
     "wiki/devops/claude-code/wiki-plugin.md",
@@ -206,11 +217,9 @@
     "wiki/coding-test/_recommendation-rules.md",
     "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
     "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
-    "wiki/frontend/browser/rendering-pipeline.md",
     "wiki/coding-test/categories/array-string",
     "wiki/coding-test/categories",
     "wiki/coding-test",
-    "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
     "wiki/frontend/nextjs",
     "wiki/frontend/javascript/cancel-reschedule-pattern.md",
     "wiki/frontend/browser/scheduler-api.md",
@@ -220,18 +229,9 @@
     "wiki/frontend/javascript/weakmap.md",
     "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
     "wiki/frontend/web-api/mutation-observer.md",
-    "wiki/frontend/react/rsc-async-optimization.md",
-    "wiki/frontend/deployment/edge-computing.md",
     "wiki/frontend/deployment",
     "wiki/frontend/react",
-    "wiki/frontend/web-api/url-search-params.md",
     "wiki/frontend/analytics",
-    "Untitled.base",
-    "wiki/_catalog.md",
-    "2026-03-18.md",
-    "Untitled 1.base",
-    "Untitled.canvas",
-    "wiki/devops/claude-code/hooks.md",
-    "wiki/devops/git/stacked-prs-rebase-onto.md"
+    "Untitled.canvas"
   ]
 }

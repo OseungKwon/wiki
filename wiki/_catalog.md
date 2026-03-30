@@ -50,3 +50,9 @@
 | frontend/javascript/cancel-reschedule-pattern.md | Cancel+Reschedule 패턴 | javascript, pattern, performance, debounce, request-animation-frame |
 | frontend/nextjs/axios-fetch-adapter-post-400.md | Axios Fetch Adapter - Node.js POST 400 에러 | axios, fetch, next-js, node-js, troubleshooting |
 | devops/claude-code/architecture-patterns.md | Claude Code 시스템과 소프트웨어 아키텍처 패턴 | claude-code, architecture, design-pattern, context-engineering |
+| backend/node/libuv.md | libuv | node-js, libuv, event-loop, async-io |
+| frontend/nextjs/rendering-lifecycle.md | Next.js 15 렌더링 생애주기 | next-js, react, rsc, rendering, streaming, hydration |
+| frontend/nextjs/caching-and-data-fetching.md | Next.js 15 캐싱 & 데이터 페칭 | next-js, caching, data-fetching, isr, revalidation |
+| frontend/nextjs/infrastructure-and-deployment.md | Next.js 15 인프라 & 배포 | next-js, infrastructure, deployment, docker, edge, streaming, monitoring |
+| frontend/nextjs/_moc-nextjs-15-lifecycle.md | Next.js 15 생애주기 MOC | moc, next-js |
+| backend/node/libuv-thread-pool.md | libuv Thread Pool 심화 | node-js, libuv, thread-pool, async-io, performance, concurrency |
