@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/coding-test/categories/array-string/_index.md",
+                "file": "wiki/frontend/browser/rendering-pipeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "rendering-pipeline"
             }
           }
         ]
@@ -196,13 +196,15 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/devops/git/github-merge-strategies.md",
+    "wiki/devops/claude-code/wiki-plugin.md",
+    "wiki/coding-test/_log.md",
     "wiki/coding-test/_keep.md",
+    "wiki/coding-test/_dashboard.md",
+    "wiki/coding-test/categories/array-string/_index.md",
     "wiki/coding-test/_recommendation-rules.md",
     "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
-    "wiki/coding-test/categories/array-string/_index.md",
     "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
-    "wiki/coding-test/_dashboard.md",
-    "wiki/coding-test/_log.md",
     "wiki/frontend/browser/rendering-pipeline.md",
     "wiki/coding-test/categories/array-string",
     "wiki/coding-test/categories",
@@ -229,9 +231,7 @@
     "Untitled 1.base",
     "Untitled.canvas",
     "wiki/devops/claude-code/hooks.md",
-    "wiki/devops/claude-code/wiki-plugin.md",
     "wiki/devops/git/stacked-prs-rebase-onto.md",
-    "wiki/devops/git/rebase.md",
-    "wiki/devops/git/github-multiple-ssh-accounts.md"
+    "wiki/devops/git/rebase.md"
   ]
 }
