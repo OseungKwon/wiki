@@ -196,6 +196,12 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/coding-test/categories/dynamic-programming/_index.md",
+    "wiki/coding-test/categories/dynamic-programming/2026-03-31-climbing-stairs.md",
+    "wiki/coding-test/categories/dynamic-programming",
+    "wiki/coding-test/categories/tree/_index.md",
+    "wiki/coding-test/categories/tree/2026-03-31-maximum-depth-of-binary-tree.md",
+    "wiki/coding-test/categories/tree",
     "wiki/concepts/algorithms/bucket-sort.md",
     "wiki/concepts/algorithms",
     "wiki/coding-test/_log.md",
@@ -223,15 +229,9 @@
     "wiki/backend/node",
     "wiki/backend",
     "wiki/devops/claude-code/architecture-patterns.md",
-    "wiki/devops/git/github-merge-strategies.md",
-    "wiki/devops/claude-code/wiki-plugin.md",
-    "wiki/coding-test/categories/array-string/_index.md",
-    "wiki/coding-test/_recommendation-rules.md",
     "wiki/coding-test/categories/array-string",
     "wiki/coding-test/categories",
     "wiki/coding-test",
-    "wiki/frontend/nextjs",
-    "wiki/frontend/browser",
     "Untitled.canvas"
   ]
 }
