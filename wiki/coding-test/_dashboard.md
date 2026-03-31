@@ -12,8 +12,8 @@ overall_pass_rate: 0%
 
 | 항목 | 값 |
 |------|-----|
-| 총 풀이 수 | 7 |
-| Pass | 7 |
+| 총 풀이 수 | 8 |
+| Pass | 8 |
 | Fail | 0 |
 | Partial | 0 |
 | Pass Rate | 100% |
@@ -28,6 +28,7 @@ overall_pass_rate: 0%
 | dynamic-programming | 1 | 1 | 100% | 2026-03-31 |
 | graph | 1 | 1 | 100% | 2026-03-31 |
 | two-pointer | 1 | 1 | 100% | 2026-03-31 |
+| stack-queue | 1 | 1 | 100% | 2026-03-31 |
 
 ## 약점 분석
 
@@ -43,7 +44,7 @@ overall_pass_rate: 0%
 
 | 날짜 | 풀이 수 | 카테고리 |
 |------|---------|----------|
-| 2026-03-31 | 5 | hash-map, tree, dp, graph, two-pointer |
+| 2026-03-31 | 6 | hash-map, tree, dp, graph, two-pointer, stack-queue |
 | 2026-03-30 | 2 | array-string |
 
 ## 다음 추천
