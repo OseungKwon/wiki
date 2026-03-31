@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
+                "file": "wiki/coding-test/_log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "axios-fetch-adapter-post-400"
+              "title": "_log"
             }
           }
         ]
@@ -196,11 +196,20 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/coding-test/_keep.md",
+    "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
+    "coding-test/_recommendation-rules.md",
+    "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
+    "wiki/coding-test/_dashboard.md",
+    "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
+    "coding-test/_keep.md",
+    "coding-test/_log.md",
+    "coding-test/_dashboard.md",
+    "coding-test",
     "wiki/frontend/nextjs/caching-and-data-fetching.md",
     "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
     "wiki/frontend/nextjs/rendering-lifecycle.md",
     "wiki/frontend/nextjs/infrastructure-and-deployment.md",
-    "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
     "wiki/frontend/deployment/edge-computing.md",
     "wiki/backend/node/libuv.md",
     "wiki/frontend/browser/rendering-pipeline.md",
@@ -211,12 +220,8 @@
     "wiki/devops/git/github-merge-strategies.md",
     "wiki/devops/claude-code/wiki-plugin.md",
     "wiki/coding-test/_log.md",
-    "wiki/coding-test/_keep.md",
-    "wiki/coding-test/_dashboard.md",
     "wiki/coding-test/categories/array-string/_index.md",
     "wiki/coding-test/_recommendation-rules.md",
-    "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
-    "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
     "wiki/coding-test/categories/array-string",
     "wiki/coding-test/categories",
     "wiki/coding-test",
@@ -224,14 +229,9 @@
     "wiki/frontend/javascript/cancel-reschedule-pattern.md",
     "wiki/frontend/browser/scheduler-api.md",
     "wiki/frontend/web-api/request-animation-frame.md",
-    "wiki/frontend/analytics/declarative-tracking.md",
     "wiki/frontend/browser",
-    "wiki/frontend/javascript/weakmap.md",
-    "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
-    "wiki/frontend/web-api/mutation-observer.md",
     "wiki/frontend/deployment",
     "wiki/frontend/react",
-    "wiki/frontend/analytics",
     "Untitled.canvas"
   ]
 }
