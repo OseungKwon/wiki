@@ -7,7 +7,6 @@ result: assisted
 hints: 1
 retries: 1
 expected_time: 10~15min
-retry_from_keep: false
 ---
 
 ## 문제
