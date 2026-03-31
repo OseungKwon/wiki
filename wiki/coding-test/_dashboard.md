@@ -1,5 +1,5 @@
 ---
-last_updated: 2026-03-30
+last_updated: 2026-03-31
 total_solved: 0
 total_pass: 0
 total_fail: 0
@@ -12,16 +12,18 @@ overall_pass_rate: 0%
 
 | 항목 | 값 |
 |------|-----|
-| 총 풀이 수 | 0 |
-| Pass | 0 |
+| 총 풀이 수 | 3 |
+| Pass | 3 |
 | Fail | 0 |
 | Partial | 0 |
-| Pass Rate | 0% |
+| Pass Rate | 100% |
 
 ## 카테고리별 현황
 
 | 카테고리 | Mastery | 풀이 수 | Pass Rate | 최근 풀이 |
 |----------|---------|---------|-----------|-----------|
+| array-string | 2 | 2 | 100% | 2026-03-30 |
+| hash-map | 1 | 1 | 100% | 2026-03-31 |
 
 ## 약점 분석
 
@@ -37,6 +39,8 @@ overall_pass_rate: 0%
 
 | 날짜 | 풀이 수 | 카테고리 |
 |------|---------|----------|
+| 2026-03-31 | 1 | hash-map |
+| 2026-03-30 | 2 | array-string |
 
 ## 다음 추천
 

@@ -56,3 +56,4 @@
 | frontend/nextjs/infrastructure-and-deployment.md | Next.js 15 인프라 & 배포 | next-js, infrastructure, deployment, docker, edge, streaming, monitoring |
 | frontend/nextjs/_moc-nextjs-15-lifecycle.md | Next.js 15 생애주기 MOC | moc, next-js |
 | backend/node/libuv-thread-pool.md | libuv Thread Pool 심화 | node-js, libuv, thread-pool, async-io, performance, concurrency |
+| concepts/algorithms/bucket-sort.md | Bucket Sort | algorithm, sorting, bucket-sort, hash-map |
