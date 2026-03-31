@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/coding-test/categories/hash-map/2026-03-31-top-k-frequent-elements.md",
+                "file": "wiki/devops/claude-code/architecture-patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-03-31-top-k-frequent-elements"
+              "title": "architecture-patterns"
             }
           }
         ]
@@ -196,23 +196,28 @@
   },
   "active": "c82c350df807550e",
   "lastOpenFiles": [
+    "wiki/ai/mcp/mcp-tool-token-consumption.md",
+    "wiki/coding-test/categories/tree/2026-03-31-maximum-depth-of-binary-tree.md",
+    "wiki/coding-test/_dashboard.md",
+    "wiki/coding-test/_recommendation-rules.md",
+    "wiki/coding-test/categories/graph/2026-03-31-number-of-islands.md",
+    "wiki/coding-test/categories/hash-map/2026-03-31-top-k-frequent-elements.md",
+    "wiki/coding-test/categories/graph/_index.md",
+    "wiki/coding-test/categories/graph",
     "wiki/coding-test/categories/dynamic-programming/_index.md",
     "wiki/coding-test/categories/dynamic-programming/2026-03-31-climbing-stairs.md",
     "wiki/coding-test/categories/dynamic-programming",
     "wiki/coding-test/categories/tree/_index.md",
-    "wiki/coding-test/categories/tree/2026-03-31-maximum-depth-of-binary-tree.md",
     "wiki/coding-test/categories/tree",
     "wiki/concepts/algorithms/bucket-sort.md",
     "wiki/concepts/algorithms",
     "wiki/coding-test/_log.md",
     "wiki/coding-test/categories/hash-map/_index.md",
-    "wiki/coding-test/categories/hash-map/2026-03-31-top-k-frequent-elements.md",
     "wiki/coding-test/categories/hash-map",
     "wiki/coding-test/_keep.md",
     "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
     "coding-test/_recommendation-rules.md",
     "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
-    "wiki/coding-test/_dashboard.md",
     "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
     "coding-test/_keep.md",
     "coding-test/_log.md",
@@ -223,15 +228,10 @@
     "wiki/frontend/nextjs/rendering-lifecycle.md",
     "wiki/frontend/nextjs/infrastructure-and-deployment.md",
     "wiki/frontend/deployment/edge-computing.md",
-    "wiki/backend/node/libuv.md",
-    "wiki/frontend/browser/rendering-pipeline.md",
-    "wiki/backend/node/libuv-thread-pool.md",
     "wiki/backend/node",
     "wiki/backend",
-    "wiki/devops/claude-code/architecture-patterns.md",
     "wiki/coding-test/categories/array-string",
     "wiki/coding-test/categories",
-    "wiki/coding-test",
     "Untitled.canvas"
   ]
 }

@@ -7,3 +7,4 @@
 | 2026-03-31 | Top K Frequent Elements | hash-map | medium | pass | - | [[categories/hash-map/2026-03-31-top-k-frequent-elements]] |
 | 2026-03-31 | Maximum Depth of Binary Tree | tree | easy | pass (힌트1) | - | [[categories/tree/2026-03-31-maximum-depth-of-binary-tree]] |
 | 2026-03-31 | Climbing Stairs | dynamic-programming | easy | pass | - | [[categories/dynamic-programming/2026-03-31-climbing-stairs]] |
+| 2026-03-31 | Number of Islands | graph | medium | pass | - | [[categories/graph/2026-03-31-number-of-islands]] |

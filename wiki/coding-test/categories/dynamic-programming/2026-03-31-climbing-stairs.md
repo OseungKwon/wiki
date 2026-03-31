@@ -4,7 +4,10 @@ category: dynamic-programming
 difficulty: easy
 source: LeetCode
 result: pass
-time: -
+hints: 0
+retries: 1
+expected_time: 10~15min
+retry_from_keep: false
 ---
 
 ## 문제
@@ -39,9 +42,10 @@ function answer(n) {
 ### 개선점
 - 이전 두 값만 필요하므로 배열 대신 변수 2개 사용 가능
 
-### 모범 답안
+### 개선된 코드
 ```typescript
-function answer(n: number): number {
+// 개선: 배열→변수 2개로 공간 O(n)→O(1), TypeScript 타입 추가
+function climbStairs(n: number): number {
   if (n <= 2) return n;
   let prev = 1, curr = 2;
   for (let i = 3; i <= n; i++) {

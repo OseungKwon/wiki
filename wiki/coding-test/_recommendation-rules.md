@@ -1,11 +1,11 @@
 ---
-version: 2.0
-last_updated: 2026-03-30
+version: 2.1
+last_updated: 2026-03-31
 ---
 
 # 문제 추천 알고리즘 규칙
 
-> `/ct start` 실행 시 이 규칙을 순서대로 적용한다.
+> `/ct next` 실행 시 이 규칙을 순서대로 적용한다.
 
 ---
 
@@ -40,7 +40,7 @@ last_updated: 2026-03-30
 
 ## Rule 3. 카테고리 선택 점수 (Priority Score)
 
-**근거**: Ericsson, K. A., Krampe, R. T. & Tesch-Römer, C. (1993). "The role of deliberate practice in the acquisition of expert performance." *Psychological Review*, 100(3), 363-406; Wozniak, P. (1990). "Optimization of Learning." SM-2 Algorithm, SuperMemo; Rohrer & Taylor (2007), 상동.
+**근거**: Ericsson, K. A., Krampe, R. T. & Tesch-Römer, C. (1993). "The role of deliberate practice in the acquisition of expert performance." *Psychological Review*, 100(3), 363-406; Wozniak, P. (1990). "Optimization of Learning." SM-2 Algorithm, SuperMemo; Rohrer & Taylor (2007), 상동; Pelánek, R. (2016). "Applications of the Elo Rating System in Adaptive Educational Systems." *UMUAI*, 26(1), 1-31.
 
 ```
 priority = (0.4 × weakness) + (0.35 × freshness) + (0.25 × diversity)
@@ -48,10 +48,32 @@ priority = (0.4 × weakness) + (0.35 × freshness) + (0.25 × diversity)
 
 | 요소 | 산출 방식 | 범위 | 근거 |
 |------|----------|------|------|
-| weakness | `(100 - pass_rate) / 100` | 0~1 | Ericsson: 연습의 40%를 약점에 |
+| weakness | `(100 - weighted_pass_rate) / 100` | 0~1 | Ericsson: 연습의 40%를 약점에 |
 | freshness | `min(경과일수, 14) / 14` | 0~1 | SM-2: 3차 복습 시점 ~14일 |
 | diversity | `1 - (카테고리 풀이수 / 총 풀이수)` | 0~1 | Rohrer: 인터리빙 전이 학습 |
 
+### 난이도 가중 pass_rate (weighted_pass_rate)
+
+**근거**: IRT(Item Response Theory)에서 난이도가 높은 문제의 정답은 더 많은 정보량(Fisher Information)을 제공한다. LeetCode/Codeforces 등 주요 코딩 플랫폼에서 1:2:3 가중치 체계를 사용한다.
+
+weakness 계산 시 단순 pass_rate 대신 **난이도 가중 pass_rate**를 사용한다:
+
+```
+weighted_pass_rate = Σ(w_d × pass_count_d) / Σ(w_d × total_count_d) × 100
+```
+
+| 난이도 | 가중치 (w_d) | 근거 |
+|--------|-------------|------|
+| Easy | 1.0 | 기본값 — 단일 개념, 브루트포스 허용 |
+| Medium | 2.0 | 2~3개 개념 조합, 최적화 필요 |
+| Hard | 3.0 | 복합 개념 + 비자명한 최적화 필수 |
+
+**예시**: Easy pass 3개 + Hard fail 1개
+- 단순 pass_rate: 3/4 = 75%
+- 가중 pass_rate: (1.0×3) / (1.0×3 + 3.0×1) = 3/6 = 50%
+→ Hard 실패가 더 크게 반영되어 해당 카테고리의 weakness가 높아진다
+
+- 데이터 부족 시(< 3문제) 단순 pass_rate를 사용한다
 - Rule 1에 의해 제외된 카테고리는 점수 계산에서 **스킵**
 - 동점 시 freshness가 높은 카테고리 우선
 
@@ -148,18 +170,57 @@ Rule 2(85% Rule)에서 "난이도 1단계 상향/하향"은 이 체계에 따른
 
 ---
 
+## Rule 8. 난이도 가중 mastery 반영
+
+**근거**: Pelánek, R. (2016), 상동 (Elo 기반 교육 시스템에서 문제 난이도에 따라 rating 변동폭이 달라짐); LeetCode/Codeforces 점수 체계 (Easy 1x, Medium 2x, Hard 3x).
+
+리뷰 완료 후 mastery 점수를 갱신할 때 난이도별 가중치를 적용한다:
+
+| 결과 | Easy (×1.0) | Medium (×2.0) | Hard (×3.0) |
+|------|------------|--------------|-------------|
+| **pass** | +1.0 | +2.0 | +3.0 |
+| **assisted** | +0.5 | +1.0 | +1.5 |
+| **fail** | 0 | 0 | 0 |
+
+### mastery 계산 공식
+
+```
+mastery = Σ(가중 결과 점수) / Σ(문제별 난이도 가중치) × 5
+```
+
+- 범위: 1~5 (1=초보, 5=마스터)
+- `× 5`는 mastery 스케일(1~5) 정규화 계수
+- 예시: Easy pass(1.0) + Medium pass(2.0) + Hard fail(0) → mastery = 3.0 / (1+2+3) × 5 = 2.5
+
+### `_index.md` 반영
+
+- mastery와 pass_rate 모두 **가중 방식**으로 계산
+- `weighted_pass_rate`와 `mastery`를 함께 기록
+
+---
+
 ## 적용 순서 요약
+
+### A. 문제 추천 시 (`/ct next`)
 
 ```
 1. _log.md에서 최근 풀이 기록 로드
 2. Rule 1 적용 → 연속 제한에 걸린 카테고리 제외
 3. Rule 4 적용 → 현재 단계 판별 (탐색기/강화기/마스터기)
-4. Rule 3 적용 → 후보 카테고리별 priority score 산출, 최고 점수 카테고리 선택
+4. Rule 3 적용 → 후보 카테고리별 priority score 산출 (난이도 가중 pass_rate 사용), 최고 점수 카테고리 선택
 5. Rule 6 적용 → 난이도 체계 기준으로 문제 난이도 범위 설정
 6. Rule 2 적용 → 성공률 기반 난이도 미세 조절
 7. Rule 7 적용 → 선택된 카테고리 내 미경험/약점 서브패턴 우선 선택
 8. Rule 5 확인 → 연속 pass/fail 예외 처리
 9. 문제 출제
+```
+
+### B. 리뷰 완료 후 (`/ct review`)
+
+```
+1. Rule 8 적용 → 난이도 가중 mastery 반영 (pass/assisted/fail + 난이도 가중치)
+2. _index.md의 mastery, weighted_pass_rate 재계산
+3. _log.md, _dashboard.md 업데이트
 ```
 
 ---
@@ -179,3 +240,5 @@ Rule 2(85% Rule)에서 "난이도 1단계 상향/하향"은 이 체계에 따른
 11. Design Gurus. "Grokking the Coding Interview: Patterns for Coding Questions."
 12. NeetCode Roadmap. https://neetcode.io/roadmap
 13. Blind 75 / Grind 75 (Sean Prasad, Yangshun Tay). Curated coding interview problem lists.
+14. van der Linden, W. J. (Ed.) (2016/2018). *Handbook of Item Response Theory*, Vols 1-3, Chapman & Hall/CRC. (난이도별 정보량 차이 — Fisher Information)
+15. Settles, B. & Meeder, B. (2016). "A Trainable Spaced Repetition Model for Language Learning." *ACL 2016*. (Duolingo HLR 모델 — 난이도 기반 반복 주기 조절)

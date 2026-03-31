@@ -3,8 +3,11 @@ date: 2026-03-31
 category: tree
 difficulty: easy
 source: LeetCode
-result: pass (힌트1)
-time: -
+result: assisted
+hints: 1
+retries: 1
+expected_time: 10~15min
+retry_from_keep: false
 ---
 
 ## 문제
@@ -41,11 +44,14 @@ function answer(root) {
 ### 개선점
 - 내부 함수 없이 answer 자체를 재귀로 사용 가능
 
-### 모범 답안
+### 개선된 코드
 ```typescript
-function answer(root: TreeNode | null): number {
+// 개선: 내부 함수 제거 → 함수 자체를 재귀로, TypeScript 타입 추가, 한 줄로 간결화
+interface TreeNode { val: number; left: TreeNode | null; right: TreeNode | null; }
+
+function maxDepth(root: TreeNode | null): number {
   if (!root) return 0;
-  return 1 + Math.max(answer(root.left), answer(root.right));
+  return 1 + Math.max(maxDepth(root.left), maxDepth(root.right));
 }
 ```
 

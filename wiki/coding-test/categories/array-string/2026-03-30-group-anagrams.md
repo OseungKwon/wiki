@@ -4,8 +4,10 @@ category: array-string
 difficulty: medium
 source: LeetCode
 result: pass
-hint: false
-time: -
+hints: 0
+retries: 1
+expected_time: 20~35min
+retry_from_keep: false
 ---
 
 ## 문제
@@ -53,8 +55,9 @@ function answer(strs) {
 3. `map.forEach + push` → `[...map.values()]`로 간소화
 4. `map.get() ?? []`로 if/else 분기 제거
 
-### 모범 답안
+### 개선된 코드
 ```typescript
+// 개선: .map→for-of, 중간 객체 제거, map.get() ?? []로 분기 제거, [...map.values()]로 간소화
 function groupAnagrams(strs: string[]): string[][] {
   const map = new Map<string, string[]>();
   for (const str of strs) {

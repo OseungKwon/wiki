@@ -3,9 +3,11 @@ date: 2026-03-30
 category: array-string
 difficulty: medium
 source: LeetCode
-result: pass
-hint: true
-time: -
+result: assisted
+hints: 1
+retries: 1
+expected_time: 20~35min
+retry_from_keep: false
 ---
 
 ## 문제
@@ -49,8 +51,9 @@ function answer(arr) {
 2. TypeScript 타입 추가
 3. 공간 최적화: output 배열 하나로 두 패스 처리 가능
 
-### 모범 답안
+### 개선된 코드
 ```typescript
+// 개선: unshift 제거(O(n²)→O(n)), 배열 1개로 공간 최적화, TypeScript 타입 추가
 function productExceptSelf(nums: number[]): number[] {
   const n = nums.length;
   const answer: number[] = new Array(n);

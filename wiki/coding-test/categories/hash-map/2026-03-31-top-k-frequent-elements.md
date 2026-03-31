@@ -4,7 +4,10 @@ category: hash-map
 difficulty: medium
 source: LeetCode
 result: pass
-time: -
+hints: 0
+retries: 1
+expected_time: 20~35min
+retry_from_keep: false
 ---
 
 ## 문제
@@ -43,9 +46,10 @@ function answer(nums, k){
 1. `map.set(num, (map.get(num) ?? 0) + 1)` — if/else 분기 제거
 2. Bucket Sort로 O(n) 달성 가능: index=빈도, value=숫자 배열
 
-### 모범 답안
+### 개선된 코드
 ```typescript
-function answer(nums: number[], k: number): number[] {
+// 개선: if/else→?? 0, 정렬→Bucket Sort로 O(n log n)→O(n), TypeScript 타입 추가
+function topKFrequent(nums: number[], k: number): number[] {
   const freqMap = new Map<number, number>();
   for (const num of nums) {
     freqMap.set(num, (freqMap.get(num) ?? 0) + 1);
