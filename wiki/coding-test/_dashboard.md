@@ -1,9 +1,9 @@
 ---
-last_updated: 2026-03-31
-total_solved: 0
-total_pass: 0
+last_updated: 2026-04-01
+total_solved: 9
+total_pass: 9
 total_fail: 0
-overall_pass_rate: 0%
+overall_pass_rate: 100%
 ---
 
 # Coding Test Dashboard
@@ -12,8 +12,8 @@ overall_pass_rate: 0%
 
 | 항목 | 값 |
 |------|-----|
-| 총 풀이 수 | 8 |
-| Pass | 8 |
+| 총 풀이 수 | 9 |
+| Pass | 9 |
 | Fail | 0 |
 | Partial | 0 |
 | Pass Rate | 100% |
@@ -29,6 +29,7 @@ overall_pass_rate: 0%
 | graph | 1 | 1 | 100% | 2026-03-31 |
 | two-pointer | 1 | 1 | 100% | 2026-03-31 |
 | stack-queue | 1 | 1 | 100% | 2026-03-31 |
+| binary-search | 1 | 1 | 100% | 2026-04-01 |
 
 ## 약점 분석
 
@@ -44,6 +45,7 @@ overall_pass_rate: 0%
 
 | 날짜 | 풀이 수 | 카테고리 |
 |------|---------|----------|
+| 2026-04-01 | 1 | binary-search |
 | 2026-03-31 | 6 | hash-map, tree, dp, graph, two-pointer, stack-queue |
 | 2026-03-30 | 2 | array-string |
 

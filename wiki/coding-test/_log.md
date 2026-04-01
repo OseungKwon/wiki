@@ -10,3 +10,4 @@
 | 2026-03-31 | Number of Islands | graph | medium | pass | - | [[categories/graph/2026-03-31-number-of-islands]] |
 | 2026-03-31 | Two Sum II | two-pointer | medium | pass | 0 | 2 | 20~35min | [[categories/two-pointer/2026-03-31-two-sum-ii]] |
 | 2026-03-31 | Valid Parentheses | stack-queue | easy | pass | 0 | 2 | 10~15min | [[categories/stack-queue/2026-03-31-valid-parentheses]] |
+| 2026-04-01 | Search Insert Position | binary-search | easy | pass | 0 | 2 | 10~15min | [[categories/binary-search/2026-04-01-search-insert-position]] |
