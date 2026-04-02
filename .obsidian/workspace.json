@@ -196,6 +196,10 @@
   },
   "active": "913a2834a14a9fed",
   "lastOpenFiles": [
+    "wiki/frontend/nextjs/loading-error-internals.md",
+    "wiki/frontend/react/suspense-version-diff.md",
+    "wiki/devops/claude-code/rtk.md",
+    "wiki/concepts/algorithms/binary-search.md",
     "wiki/coding-test/_keeps.md",
     "wiki/coding-test/categories/binary-search/2026-04-01-search-insert-position.md",
     "wiki/coding-test/categories/stack-queue/2026-03-31-valid-parentheses.md",
@@ -227,10 +231,6 @@
     "wiki/coding-test/_log.md",
     "wiki/coding-test/categories/hash-map/_index.md",
     "wiki/coding-test/categories/hash-map",
-    "wiki/coding-test/_keep.md",
-    "wiki/coding-test/categories/array-string/2026-03-30-product-of-array-except-self.md",
-    "coding-test/_recommendation-rules.md",
-    "wiki/coding-test/categories/array-string/2026-03-30-group-anagrams.md",
     "coding-test",
     "Untitled.canvas"
   ]
