@@ -7,6 +7,7 @@ tags:
   - automation
 created: 2026-03-17
 updated: 2026-03-17
+reviewed: false
 ---
 
 ## 정의

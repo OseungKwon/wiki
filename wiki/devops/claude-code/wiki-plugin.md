@@ -1,6 +1,8 @@
 ---
 title: Wiki Plugin for Claude Code
-aliases: [wiki-plugin, 위키 플러그인]
+aliases:
+  - wiki-plugin
+  - 위키 플러그인
 tags:
   - claude-code
   - obsidian
@@ -9,6 +11,7 @@ tags:
   - wiki
 created: 2026-03-17
 updated: 2026-03-17
+reviewed: false
 ---
 
 ## 정의
