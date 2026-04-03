@@ -65,3 +65,5 @@
 
 | frontend/react/fiber-wip-tree.md | React Fiber WIP 트리 | react, fiber, reconciliation, concurrent |
 | frontend/react/rendering-lifecycle-with-suspense.md | React 렌더링 생애주기 — Fiber, WIP, Suspense 통합 정리 | react, fiber, suspense, concurrent, reconciliation, rendering |
+| frontend/react/use-api.md | React 19 use API | react, use, suspense, data-fetching, react-19 |
+| concepts/programming-paradigm/declarative-programming.md | 선언형 프로그래밍 | programming-paradigm, declarative, imperative |

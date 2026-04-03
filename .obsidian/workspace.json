@@ -196,6 +196,9 @@
   },
   "active": "913a2834a14a9fed",
   "lastOpenFiles": [
+    "wiki/concepts/programming-paradigm/declarative-programming.md",
+    "wiki/concepts/programming-paradigm",
+    "wiki/frontend/react/use-api.md",
     "wiki/frontend/react/rendering-lifecycle-with-suspense.md",
     "wiki/frontend/react/fiber-wip-tree.md",
     "wiki/frontend/nextjs/loading-error-internals.md",
@@ -226,12 +229,9 @@
     "wiki/coding-test/categories/dynamic-programming/_index.md",
     "wiki/coding-test/categories/dynamic-programming/2026-03-31-climbing-stairs.md",
     "wiki/coding-test/categories/dynamic-programming",
-    "wiki/coding-test/categories/tree/_index.md",
     "wiki/coding-test/categories/tree",
-    "wiki/concepts/algorithms/bucket-sort.md",
     "wiki/concepts/algorithms",
     "wiki/coding-test/categories/hash-map",
-    "coding-test",
     "Untitled.canvas"
   ]
 }
