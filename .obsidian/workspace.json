@@ -196,6 +196,8 @@
   },
   "active": "913a2834a14a9fed",
   "lastOpenFiles": [
+    "wiki/frontend/react/rendering-lifecycle-with-suspense.md",
+    "wiki/frontend/react/fiber-wip-tree.md",
     "wiki/frontend/nextjs/loading-error-internals.md",
     "wiki/frontend/react/suspense-version-diff.md",
     "wiki/devops/claude-code/rtk.md",
@@ -228,8 +230,6 @@
     "wiki/coding-test/categories/tree",
     "wiki/concepts/algorithms/bucket-sort.md",
     "wiki/concepts/algorithms",
-    "wiki/coding-test/_log.md",
-    "wiki/coding-test/categories/hash-map/_index.md",
     "wiki/coding-test/categories/hash-map",
     "coding-test",
     "Untitled.canvas"

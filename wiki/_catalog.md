@@ -62,3 +62,6 @@
 | devops/claude-code/rtk.md | RTK (Rust Token Killer) | claude-code, cli, token-optimization, rust |
 | frontend/react/suspense-version-diff.md | React Suspense 버전별 동작 차이 (17 → 18 → 19) | react, suspense, concurrent, streaming-ssr |
 | frontend/nextjs/loading-error-internals.md | Next.js loading/error vs Suspense/ErrorBoundary 내부 동작 | next-js, suspense, error-boundary, streaming, ppr |
+
+| frontend/react/fiber-wip-tree.md | React Fiber WIP 트리 | react, fiber, reconciliation, concurrent |
+| frontend/react/rendering-lifecycle-with-suspense.md | React 렌더링 생애주기 — Fiber, WIP, Suspense 통합 정리 | react, fiber, suspense, concurrent, reconciliation, rendering |
