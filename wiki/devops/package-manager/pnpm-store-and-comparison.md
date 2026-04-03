@@ -11,6 +11,7 @@ tags:
   - node
 created: 2026-03-19
 updated: 2026-03-19
+reviewed: false
 ---
 
 ## 정의

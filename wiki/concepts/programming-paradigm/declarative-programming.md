@@ -10,6 +10,7 @@ tags:
   - imperative
 created: 2026-04-03
 updated: 2026-04-03
+reviewed: false
 ---
 
 ## 정의

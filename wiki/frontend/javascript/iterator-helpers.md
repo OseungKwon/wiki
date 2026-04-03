@@ -8,6 +8,7 @@ tags:
   - ecmascript-2025
 created: 2026-03-20
 updated: 2026-03-20
+reviewed: false
 ---
 
 ## 정의

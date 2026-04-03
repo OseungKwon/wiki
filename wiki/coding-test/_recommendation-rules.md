@@ -1,6 +1,7 @@
 ---
 version: 2.1
 last_updated: 2026-03-31
+reviewed: false
 ---
 
 # 문제 추천 알고리즘 규칙

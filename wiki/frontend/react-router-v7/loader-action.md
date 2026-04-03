@@ -11,6 +11,7 @@ tags:
   - data-fetching
 created: 2026-03-18
 updated: 2026-03-18
+reviewed: false
 ---
 
 ## 정의

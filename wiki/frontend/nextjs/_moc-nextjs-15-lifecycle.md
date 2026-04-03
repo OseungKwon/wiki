@@ -5,6 +5,7 @@ tags:
   - next-js
 created: 2026-03-30
 updated: 2026-03-30
+reviewed: false
 ---
 # Next.js 15 생애주기
 

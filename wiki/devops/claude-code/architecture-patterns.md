@@ -10,6 +10,7 @@ tags:
   - context-engineering
 created: 2026-03-30
 updated: 2026-03-30
+reviewed: false
 ---
 
 ## 정의

@@ -11,6 +11,7 @@ tags:
   - ppr
 created: 2026-04-02
 updated: 2026-04-02
+reviewed: false
 ---
 
 ## 정의

@@ -9,6 +9,7 @@ tags:
   - search
 created: 2026-04-01
 updated: 2026-04-01
+reviewed: false
 ---
 
 ## 정의

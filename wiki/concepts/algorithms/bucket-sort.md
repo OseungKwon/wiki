@@ -8,6 +8,7 @@ tags:
   - hash-map
 created: 2026-03-31
 updated: 2026-03-31
+reviewed: false
 ---
 
 ## 정의

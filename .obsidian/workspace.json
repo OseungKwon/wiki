@@ -11,14 +11,14 @@
             "id": "7d9663f49c4c267b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "wiki/concepts/programming-paradigm/declarative-programming.md",
-                "mode": "source",
-                "source": false
+                "aFile": "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
+                "bFile": "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "declarative-programming"
+              "icon": "diff",
+              "title": "Diff: _moc-nextjs-15-lifecycle  (Working Tree)"
             }
           }
         ]
@@ -196,6 +196,8 @@
   },
   "active": "7d9663f49c4c267b",
   "lastOpenFiles": [
+    "wiki/concepts/programming-paradigm/declarative-programming.md",
+    "wiki/frontend/monorepo/subpath-exports.md",
     "wiki/frontend/web-api/url-search-params.md",
     "wiki/frontend/web-api/request-animation-frame.md",
     "wiki/frontend/web-api/mutation-observer.md",
@@ -220,8 +222,6 @@
     "wiki/frontend/javascript/iterator-helpers.md",
     "wiki/frontend/javascript/cancel-reschedule-pattern.md",
     "wiki/frontend/deployment/edge-computing.md",
-    "wiki/frontend/browser/scheduler-api.md",
-    "wiki/frontend/browser/rendering-pipeline.md",
     "wiki/frontend/monorepo",
     "wiki/concepts/programming-paradigm",
     "wiki/coding-test/categories/binary-search",

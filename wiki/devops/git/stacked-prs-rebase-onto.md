@@ -10,6 +10,7 @@ tags:
   - workflow
 created: 2026-03-18
 updated: 2026-04-01
+reviewed: false
 ---
 
 ## 정의
