@@ -68,3 +68,4 @@
 | frontend/react/use-api.md | React 19 use API | react, use, suspense, data-fetching, react-19 |
 | concepts/programming-paradigm/declarative-programming.md | 선언형 프로그래밍 | programming-paradigm, declarative, imperative |
 | frontend/monorepo/subpath-exports.md | Package Subpath Exports로 의존성 지옥 해결하기 | node-js, package-json, monorepo, module-system |
+| concepts/data-structures/linked-list.md | 연결 리스트 (Linked List) | data-structure, linked-list, pointer, typescript |

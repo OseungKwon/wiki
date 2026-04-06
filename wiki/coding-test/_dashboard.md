@@ -1,10 +1,10 @@
 ---
 last_updated: 2026-04-06
 reviewed: false
-total_solved: 10
+total_solved: 11
 total_pass: 9
-total_fail: 1
-overall_pass_rate: 90%
+total_fail: 2
+overall_pass_rate: 82%
 ---
 
 # Coding Test Dashboard
@@ -13,11 +13,11 @@ overall_pass_rate: 90%
 
 | 항목 | 값 |
 |------|-----|
-| 총 풀이 수 | 10 |
+| 총 풀이 수 | 11 |
 | Pass | 9 |
-| Fail | 1 |
+| Fail | 2 |
 | Partial | 0 |
-| Pass Rate | 90% |
+| Pass Rate | 82% |
 
 ## 카테고리별 현황
 
@@ -31,25 +31,26 @@ overall_pass_rate: 90%
 | two-pointer | 1 | 1 | 100% | 2026-03-31 |
 | stack-queue | 1 | 1 | 100% | 2026-03-31 |
 | binary-search | 1 | 1 | 100% | 2026-04-01 |
-| linked-list | 1 | 1 | 0% | 2026-04-06 |
+| linked-list | 1 | 2 | 0% | 2026-04-06 |
 
 ## 약점 분석
 
 ### 우선 학습 카테고리
-1. linked-list — fail, 포인터 조작 개념 부족
+1. linked-list — 연속 fail, 포인터 조작 개념 부족
 
 ### 반복 실수 패턴
 1. 연결 리스트에서 배열 변환 후 처리하려는 접근
+2. 포인터 조작(node.next 덮어쓰기) 개념 미숙
 
 ## 최근 활동 (7일)
 
 | 날짜 | 풀이 수 | 카테고리 |
 |------|---------|----------|
-| 2026-04-06 | 1 | linked-list |
+| 2026-04-06 | 2 | linked-list |
 | 2026-04-01 | 1 | binary-search |
 | 2026-03-31 | 6 | hash-map, tree, dp, graph, two-pointer, stack-queue |
 | 2026-03-30 | 2 | array-string |
 
 ## 다음 추천
 
-> Rule 5: linked-list fail → 1~3일 내 유사 문제(더 쉬운 난이도) 재출제 예정
+> Rule 5: linked-list 연속 fail → 1~3일 내 유사 문제(기초 패턴 복습) 재출제 예정

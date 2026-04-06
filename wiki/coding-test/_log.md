@@ -12,3 +12,4 @@
 | 2026-03-31 | Valid Parentheses | stack-queue | easy | pass | 0 | 2 | 10~15min | [[categories/stack-queue/2026-03-31-valid-parentheses]] |
 | 2026-04-01 | Search Insert Position | binary-search | easy | pass | 0 | 2 | 10~15min | [[categories/binary-search/2026-04-01-search-insert-position]] |
 | 2026-04-06 | Reverse Linked List | linked-list | easy | fail | 3 | 0 | 10~15min | 0 | [[categories/linked-list/2026-04-06-reverse-linked-list]] |
+| 2026-04-06 | Remove Duplicates from Sorted List | linked-list | easy | fail | 3 | 0 | 10~15min | 0 | [[categories/linked-list/2026-04-06-remove-duplicates-from-sorted-list]] |
