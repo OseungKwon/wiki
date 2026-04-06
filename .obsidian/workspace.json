@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
-                "bFile": "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
+                "aFile": "wiki/frontend/react/fiber-wip-tree.md",
+                "bFile": "wiki/frontend/react/fiber-wip-tree.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: _moc-nextjs-15-lifecycle  (Working Tree)"
+              "title": "Diff: fiber-wip-tree  (Working Tree)"
             }
           }
         ]
@@ -196,6 +196,10 @@
   },
   "active": "7d9663f49c4c267b",
   "lastOpenFiles": [
+    "wiki/coding-test/_dashboard.md",
+    "wiki/coding-test/categories/linked-list/_index.md",
+    "wiki/coding-test/categories/linked-list/2026-04-06-reverse-linked-list.md",
+    "wiki/coding-test/categories/linked-list",
     "wiki/concepts/programming-paradigm/declarative-programming.md",
     "wiki/frontend/monorepo/subpath-exports.md",
     "wiki/frontend/web-api/url-search-params.md",
@@ -219,9 +223,6 @@
     "wiki/frontend/library/mobx.md",
     "wiki/frontend/javascript/weakmap.md",
     "wiki/frontend/javascript/proxy.md",
-    "wiki/frontend/javascript/iterator-helpers.md",
-    "wiki/frontend/javascript/cancel-reschedule-pattern.md",
-    "wiki/frontend/deployment/edge-computing.md",
     "wiki/frontend/monorepo",
     "wiki/concepts/programming-paradigm",
     "wiki/coding-test/categories/binary-search",
@@ -231,7 +232,6 @@
     "wiki/coding-test/categories/graph",
     "wiki/coding-test/categories/dynamic-programming",
     "wiki/coding-test/categories/tree",
-    "wiki/concepts/algorithms",
     "Untitled.canvas"
   ]
 }
