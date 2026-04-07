@@ -13,3 +13,4 @@
 | 2026-04-01 | Search Insert Position | binary-search | easy | pass | 0 | 2 | 10~15min | [[categories/binary-search/2026-04-01-search-insert-position]] |
 | 2026-04-06 | Reverse Linked List | linked-list | easy | fail | 3 | 0 | 10~15min | 0 | [[categories/linked-list/2026-04-06-reverse-linked-list]] |
 | 2026-04-06 | Remove Duplicates from Sorted List | linked-list | easy | fail | 3 | 0 | 10~15min | 0 | [[categories/linked-list/2026-04-06-remove-duplicates-from-sorted-list]] |
+| 2026-04-07 | Remove Linked List Elements | linked-list | easy | pass | 0 | 1 | 10~15min | 0 | [[categories/linked-list/2026-04-07-remove-linked-list-elements]] |
