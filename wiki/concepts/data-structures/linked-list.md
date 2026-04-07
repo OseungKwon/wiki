@@ -10,7 +10,31 @@ created: 2026-04-06
 updated: 2026-04-06
 reviewed: false
 ---
+function answer(head, val) {
 
+const dummy = new ListNode(0);
+
+dummy.next = head;
+
+let cur = dummy;
+
+while (cur?.next !== null) {
+
+if (cur.next.val === val) {
+
+cur.next = cur.next.next;
+
+} else {
+
+cur = cur.next;
+
+}
+
+}
+
+return dummy.next;
+
+}
 ## 정의
 노드들이 `next` 포인터로 체인처럼 연결된 선형 자료구조. 각 노드는 값(`val`)과 다음 노드 참조(`next`)를 가진다.
 

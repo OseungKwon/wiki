@@ -13,6 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "wiki/coding-test/categories/linked-list/2026-04-06-reverse-linked-list.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-06-reverse-linked-list"
+            }
+          },
+          {
+            "id": "94a42281e65341ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "wiki/concepts/data-structures/linked-list.md",
                 "mode": "source",
                 "source": false
@@ -21,7 +35,8 @@
               "title": "linked-list"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,14 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d9663f49c4c267b",
+  "active": "94a42281e65341ad",
   "lastOpenFiles": [
+    "wiki/coding-test/categories/linked-list/2026-04-06-reverse-linked-list.md",
+    "wiki/coding-test/categories/linked-list/2026-04-06-remove-duplicates-from-sorted-list.md",
+    "wiki/coding-test/categories/binary-search/2026-04-01-search-insert-position.md",
+    "wiki/concepts/data-structures/linked-list.md",
     "wiki/coding-test/_dashboard.md",
     "wiki/coding-test/categories/linked-list/_index.md",
-    "wiki/coding-test/categories/linked-list/2026-04-06-remove-duplicates-from-sorted-list.md",
-    "wiki/concepts/data-structures/linked-list.md",
     "wiki/concepts/data-structures",
-    "wiki/coding-test/categories/linked-list/2026-04-06-reverse-linked-list.md",
     "wiki/coding-test/categories/linked-list",
     "wiki/concepts/programming-paradigm/declarative-programming.md",
     "wiki/frontend/monorepo/subpath-exports.md",
@@ -223,7 +239,6 @@
     "wiki/frontend/nextjs/axios-fetch-adapter-post-400.md",
     "wiki/frontend/nextjs/_moc-nextjs-15-lifecycle.md",
     "wiki/frontend/library/valtio.md",
-    "wiki/frontend/library/mobx.md",
     "wiki/frontend/monorepo",
     "wiki/concepts/programming-paradigm",
     "wiki/coding-test/categories/binary-search",
