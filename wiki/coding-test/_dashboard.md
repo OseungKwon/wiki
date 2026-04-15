@@ -1,10 +1,10 @@
 ---
 last_updated: 2026-04-15
 reviewed: false
-total_solved: "14"
+total_solved: "15"
 total_pass: "12"
-total_fail: 2
-overall_pass_rate: 86%
+total_fail: "3"
+overall_pass_rate: 80%
 ---
 
 # Coding Test Dashboard
@@ -64,3 +64,8 @@ overall_pass_rate: 86%
 **전체 통계**: 총 14문제, Pass 12, Pass Rate 86%
 **최근 활동**: 2026-04-15 — sorting 1문제 (Sort Array by Increasing Frequency, pass)
 **다음 추천**: 미경험 카테고리 (backtracking, heap, math-bit, implementation) 또는 linked-list 복귀(2문제 쿨다운 해소 후)
+
+**카테고리 추가**: backtracking (mastery 1, 1문제, 0%)
+**전체 통계**: 총 15문제, Pass 12, Fail 3, Pass Rate 80%
+**최근 활동**: 2026-04-15 — backtracking 1문제 (Subsets, fail)
+**다음 추천**: backtracking 재도전 (1~3일 내 유사 문제) 또는 미경험 카테고리 (heap, math-bit, implementation)

@@ -71,3 +71,4 @@
 | concepts/data-structures/linked-list.md | 연결 리스트 (Linked List) | data-structure, linked-list, pointer, typescript |
 | concepts/algorithms/array-sort.md | JavaScript Array.sort() 심화 | javascript, sorting, array, timsort |
 | frontend/javascript/hoisting.md | 호이스팅(Hoisting) | javascript, hoisting, tdz, scope |
+| concepts/algorithms/backtracking.md | 백트래킹 (Backtracking) | algorithm, backtracking, recursion, typescript |
