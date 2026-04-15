@@ -211,6 +211,9 @@
   },
   "active": "94a42281e65341ad",
   "lastOpenFiles": [
+    "concepts/data-structures/heap.md",
+    "concepts/data-structures",
+    "concepts",
     "wiki/coding-test/categories/backtracking/2026-04-15-combinations.md",
     "wiki/concepts/algorithms/backtracking.md",
     "wiki/coding-test/categories/backtracking/_index.md",
@@ -241,12 +244,9 @@
     "wiki/frontend/web-api/mutation-observer.md",
     "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
     "wiki/frontend/react/use-api.md",
-    "wiki/frontend/react/suspense-version-diff.md",
     "wiki/frontend/monorepo",
     "wiki/concepts/programming-paradigm",
     "wiki/coding-test/categories/binary-search",
-    "wiki/coding-test/_reports",
-    "wiki/coding-test/categories/stack-queue",
     "Untitled.canvas"
   ]
 }
