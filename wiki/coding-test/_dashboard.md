@@ -1,10 +1,10 @@
 ---
 last_updated: 2026-04-15
 reviewed: false
-total_solved: "15"
-total_pass: "12"
+total_solved: "16"
+total_pass: "13"
 total_fail: "3"
-overall_pass_rate: 80%
+overall_pass_rate: 81%
 ---
 
 # Coding Test Dashboard
@@ -69,3 +69,7 @@ overall_pass_rate: 80%
 **전체 통계**: 총 15문제, Pass 12, Fail 3, Pass Rate 80%
 **최근 활동**: 2026-04-15 — backtracking 1문제 (Subsets, fail)
 **다음 추천**: backtracking 재도전 (1~3일 내 유사 문제) 또는 미경험 카테고리 (heap, math-bit, implementation)
+
+**최근 활동**: 2026-04-15 — backtracking Combinations (pass, 힌트 0회)
+**전체 통계**: 총 16문제, Pass 13, Fail 3, Pass Rate 81%
+**backtracking 업데이트**: mastery 2.5, 2문제 (1pass/1fail), 50%

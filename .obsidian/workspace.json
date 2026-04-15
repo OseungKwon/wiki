@@ -211,6 +211,7 @@
   },
   "active": "94a42281e65341ad",
   "lastOpenFiles": [
+    "wiki/coding-test/categories/backtracking/2026-04-15-combinations.md",
     "wiki/concepts/algorithms/backtracking.md",
     "wiki/coding-test/categories/backtracking/_index.md",
     "wiki/coding-test/categories/backtracking/2026-04-15-subsets.md",
@@ -241,7 +242,6 @@
     "wiki/frontend/react/use-effect-cleanup-arrow-function.md",
     "wiki/frontend/react/use-api.md",
     "wiki/frontend/react/suspense-version-diff.md",
-    "wiki/frontend/react/rsc-async-optimization.md",
     "wiki/frontend/monorepo",
     "wiki/concepts/programming-paradigm",
     "wiki/coding-test/categories/binary-search",

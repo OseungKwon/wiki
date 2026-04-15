@@ -1,9 +1,9 @@
 ---
 category: backtracking
-mastery: 1
-total_solved: 1
-pass_rate: 0%
-weighted_pass_rate: 0%
+mastery: "2.5"
+total_solved: "2"
+pass_rate: 50%
+weighted_pass_rate: 50%
 last_solved: 2026-04-15
 ---
 
@@ -30,3 +30,4 @@ last_solved: 2026-04-15
 | 날짜 | 문제 | 서브패턴 | 난이도 | 결과 | 힌트 | 재시도 | 적정시간 | 링크 |
 |------|------|----------|--------|------|------|--------|----------|------|
 | 2026-04-15 | Subsets | 순열/조합 생성 | medium | fail | 3 | 0 | 20~35min | [[categories/backtracking/2026-04-15-subsets]] |
+| 2026-04-15 | Combinations | 순열/조합 생성 | medium | pass | 0 | 1 | 20~35min | [[categories/backtracking/2026-04-15-combinations]] |
