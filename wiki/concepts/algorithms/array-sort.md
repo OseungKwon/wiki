@@ -1,13 +1,16 @@
 ---
-title: "JavaScript Array.sort() 심화"
-aliases: [Array.sort, sort, TimSort]
+title: JavaScript Array.sort() 심화
+aliases:
+  - Array.sort
+  - sort
+  - TimSort
 tags:
   - javascript
   - sorting
   - array
   - timsort
 created: 2026-04-07
-updated: 2026-04-07
+updated: 2026-04-15
 reviewed: false
 ---
 
@@ -75,6 +78,50 @@ V8 동작: n ≤ 1 → no-op / n ≤ 64 → InsertionSort / n > 64 → TimSort
 전환 이유: 안정성 보장(ES2019), 최악 O(n²) 제거, 부분 정렬 데이터에 유리.
 
 ## 출처 / 참고
+
+### 비교 함수 반환값의 의미
+
+`(a, b) => number` 형태의 비교 함수에서:
+
+| 반환값 | 의미 | 결과 |
+|--------|------|------|
+| **음수** (e.g. `-1`) | `a < b` 로 간주 | `a`가 `b` 앞 |
+| **0** | `a === b` 로 간주 | 순서 유지 |
+| **양수** (e.g. `1`) | `a > b` 로 간주 | `b`가 `a` 앞 |
+
+`a - b`가 음수면 a가 앞, 양수면 b가 앞 → 자연스럽게 오름차순.
+
+### 다중 기준 비교 — if-else 원칙
+
+**원칙: 우선순위 높은 기준부터, 마지막은 숫자 뺄셈**
+
+```typescript
+// ❌ 불필요한 else (return 후 도달 불가)
+(a, b) => {
+  if (freq[a] !== freq[b]) {
+    return freq[a] - freq[b];
+  } else {
+    return b - a;
+  }
+}
+
+// ✅ early return으로 flatten
+(a, b) => {
+  if (freq[a] !== freq[b]) return freq[a] - freq[b]; // 1순위: 빈도 오름차순
+  return b - a;                                       // 2순위: 값 내림차순
+}
+```
+
+3순위 이상도 동일 패턴으로 확장:
+
+```typescript
+(a, b) => {
+  if (a.priority !== b.priority) return a.priority - b.priority;
+  if (a.date !== b.date) return a.date - b.date;
+  return a.name.localeCompare(b.name);
+}
+```
+
 - [[bucket-sort|Bucket Sort]] — 정렬 알고리즘 카테고리
 - [[binary-search|Binary Search]] — 정렬된 배열 전제 알고리즘
 - [[linked-list|연결 리스트]] — 같은 자료구조/알고리즘 카테고리

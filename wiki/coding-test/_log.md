@@ -15,3 +15,4 @@
 | 2026-04-06 | Remove Duplicates from Sorted List | linked-list | easy | fail | 3 | 0 | 10~15min | 0 | [[categories/linked-list/2026-04-06-remove-duplicates-from-sorted-list]] |
 | 2026-04-07 | Remove Linked List Elements | linked-list | easy | pass | 0 | 1 | 10~15min | 0 | [[categories/linked-list/2026-04-07-remove-linked-list-elements]] |
 | 2026-04-07 | Assign Cookies | greedy | easy | pass | 0 | 2 | 10~15min | 0 | [[categories/greedy/2026-04-07-assign-cookies]] |
+| 2026-04-15 | Sort Array by Increasing Frequency | sorting | easy | pass | 0 | 1 | 10~15min | 0 | [[categories/sorting/2026-04-15-sort-array-by-increasing-frequency]] |
