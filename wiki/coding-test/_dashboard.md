@@ -1,10 +1,10 @@
 ---
 last_updated: 2026-04-15
 reviewed: false
-total_solved: "16"
-total_pass: "13"
+total_solved: "17"
+total_pass: "14"
 total_fail: "3"
-overall_pass_rate: 81%
+overall_pass_rate: 82%
 ---
 
 # Coding Test Dashboard
@@ -73,3 +73,7 @@ overall_pass_rate: 81%
 **최근 활동**: 2026-04-15 — backtracking Combinations (pass, 힌트 0회)
 **전체 통계**: 총 16문제, Pass 13, Fail 3, Pass Rate 81%
 **backtracking 업데이트**: mastery 2.5, 2문제 (1pass/1fail), 50%
+
+**카테고리 추가**: heap (mastery 2.5, 1문제, 100%)
+**전체 통계**: 총 17문제, Pass 14, Fail 3, Pass Rate 82%
+**최근 활동**: 2026-04-16 — heap 1문제 (Kth Largest Element, pass)
