@@ -211,6 +211,9 @@
   },
   "active": "94a42281e65341ad",
   "lastOpenFiles": [
+    "wiki/coding-test/categories/math-bit/_index.md",
+    "wiki/coding-test/categories/math-bit/2026-04-16-number-of-1-bits.md",
+    "wiki/coding-test/categories/math-bit",
     "wiki/coding-test/categories/heap/_index.md",
     "wiki/coding-test/categories/heap/2026-04-16-kth-largest-element.md",
     "wiki/coding-test/categories/heap",
@@ -243,10 +246,7 @@
     "wiki/coding-test/categories/linked-list",
     "wiki/concepts/programming-paradigm/declarative-programming.md",
     "wiki/frontend/monorepo/subpath-exports.md",
-    "wiki/frontend/web-api/url-search-params.md",
-    "wiki/frontend/web-api/request-animation-frame.md",
     "wiki/frontend/monorepo",
-    "wiki/concepts/programming-paradigm",
     "Untitled.canvas"
   ]
 }
