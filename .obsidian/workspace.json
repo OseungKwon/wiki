@@ -25,14 +25,14 @@
             "id": "94a42281e65341ad",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "wiki/coding-test/categories/sorting/2026-04-15-sort-array-by-increasing-frequency.md",
-                "bFile": "wiki/coding-test/categories/sorting/2026-04-15-sort-array-by-increasing-frequency.md",
-                "aRef": ""
+                "file": "wiki/coding-test/categories/binary-search/2026-04-01-search-insert-position.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: 2026-04-15-sort-array-by-increasing-frequency  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "2026-04-01-search-insert-position"
             }
           }
         ],
