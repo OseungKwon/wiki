@@ -74,3 +74,4 @@
 | concepts/algorithms/backtracking.md | 백트래킹 (Backtracking) | algorithm, backtracking, recursion, typescript |
 | concepts/data-structures/heap.md | 힙 (Heap) | data-structure, heap, priority-queue, algorithm, javascript |
 | devops/claude-code/lsp-and-serena.md | LSP와 Serena - AI 코드 탐색 도구 비교 | lsp, serena, claude-code, mcp, code-intelligence |
+| frontend/react/use-sync-external-store.md | useSyncExternalStore | react, hooks, concurrent, external-store |
