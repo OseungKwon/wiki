@@ -77,3 +77,5 @@
 | frontend/react/use-sync-external-store.md | useSyncExternalStore | react, hooks, concurrent, external-store |
 
 | frontend/browser/cookie.md | 브라우저 쿠키 (HTTP Cookie) | browser, cookie, http, security, web-api |
+
+| writing/declarative-tracking-blog.md | 프론트엔드 트래킹, 선언적으로 풀어보니 | writing, blog, analytics, tracking, dom |
