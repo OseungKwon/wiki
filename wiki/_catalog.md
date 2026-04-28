@@ -82,3 +82,4 @@
 
 | devops/package-manager/package-manager-comparison-2026.md | JavaScript 패키지 매니저 비교 (2026) | package-manager, npm, yarn, pnpm, bun |
 | writing/figma-lite-hook-blog.md | Claude Code에서 Figma 응답을 줄이는 hook을 만들었다 | writing, blog, claude-code, figma, mcp, hook, token-optimization |
+| writing/harness-engineering-blog.md | AI 에이전트가 레거시를 복사하지 못하게 만드는 법 | writing, blog, harness-engineering, claude-code, hook, eslint, ai-agent |
