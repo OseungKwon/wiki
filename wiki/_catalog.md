@@ -84,3 +84,5 @@
 | writing/figma-lite-hook-blog.md | Claude Code에서 Figma 응답을 줄이는 hook을 만들었다 | writing, blog, claude-code, figma, mcp, hook, token-optimization |
 | writing/harness-engineering-blog.md | AI 에이전트가 레거시를 복사하지 못하게 만드는 법 | writing, blog, harness-engineering, claude-code, hook, eslint, ai-agent |
 | frontend/tanstack-query/typescript-options-utility-types.md | TanStack Query - TypeScript Options 유틸리티 타입 | tanstack-query, typescript, type-inference, react-query |
+| frontend/tanstack-query/query-options-factory-pattern.md | TanStack Query - queryOptions 팩토리 패턴 | tanstack-query, react-query, design-pattern, typescript |
+| frontend/react/server-components-vs-client-state.md | Server Components vs 클라이언트 서버 상태관리 | react, rsc, server-components, tanstack-query, state-management |
