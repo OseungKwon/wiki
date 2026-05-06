@@ -89,3 +89,4 @@
 
 | devops/monitoring/sentry.md | Sentry - 프론트엔드 에러 모니터링 | sentry, monitoring, error-tracking, javascript, observability |
 | frontend/javascript/call-stack.md | Call Stack과 Stack Trace | javascript, call-stack, stack-trace, debugging, error-handling |
+| devops/ci-cd/ci-cd-pipeline-classification.md | CI/CD 파이프라인 도구 분류 | ci-cd, devops, github-actions, husky, jenkins, argocd |
