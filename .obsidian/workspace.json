@@ -211,6 +211,9 @@
   },
   "active": "94a42281e65341ad",
   "lastOpenFiles": [
+    "wiki/frontend/javascript/call-stack.md",
+    "wiki/devops/monitoring/sentry.md",
+    "wiki/devops/monitoring",
     "wiki/frontend/react/server-components-vs-client-state.md",
     "wiki/frontend/tanstack-query/query-options-factory-pattern.md",
     "wiki/frontend/react-router-v7/tanstack-query-with-rrv7.md",
@@ -242,11 +245,8 @@
     "wiki/coding-test/categories/backtracking",
     "wiki/concepts/data-structures/linked-list.md",
     "wiki/coding-test/categories/sorting/_index.md",
-    "wiki/coding-test/categories/sorting/2026-04-15-sort-array-by-increasing-frequency.md",
     "wiki/coding-test/categories/sorting",
-    "wiki/frontend/javascript/hoisting.md",
     "wiki/coding-test/categories/greedy",
-    "wiki/concepts/data-structures",
     "Untitled.canvas"
   ]
 }

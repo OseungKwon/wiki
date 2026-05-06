@@ -86,3 +86,6 @@
 | frontend/tanstack-query/typescript-options-utility-types.md | TanStack Query - TypeScript Options 유틸리티 타입 | tanstack-query, typescript, type-inference, react-query |
 | frontend/tanstack-query/query-options-factory-pattern.md | TanStack Query - queryOptions 팩토리 패턴 | tanstack-query, react-query, design-pattern, typescript |
 | frontend/react/server-components-vs-client-state.md | Server Components vs 클라이언트 서버 상태관리 | react, rsc, server-components, tanstack-query, state-management |
+
+| devops/monitoring/sentry.md | Sentry - 프론트엔드 에러 모니터링 | sentry, monitoring, error-tracking, javascript, observability |
+| frontend/javascript/call-stack.md | Call Stack과 Stack Trace | javascript, call-stack, stack-trace, debugging, error-handling |
