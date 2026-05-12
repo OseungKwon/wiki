@@ -90,3 +90,5 @@
 | devops/monitoring/sentry.md | Sentry - 프론트엔드 에러 모니터링 | sentry, monitoring, error-tracking, javascript, observability |
 | frontend/javascript/call-stack.md | Call Stack과 Stack Trace | javascript, call-stack, stack-trace, debugging, error-handling |
 | devops/ci-cd/ci-cd-pipeline-classification.md | CI/CD 파이프라인 도구 분류 | ci-cd, devops, github-actions, husky, jenkins, argocd |
+| frontend/browser/workers.md | Browser Workers | browser, web-worker, service-worker, pwa, performance |
+| frontend/browser/network-request-flow.md | 브라우저 네트워크 요청 흐름 | browser, networking, service-worker, cdn, middleware, caching, performance |
