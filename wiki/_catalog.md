@@ -92,3 +92,5 @@
 | devops/ci-cd/ci-cd-pipeline-classification.md | CI/CD 파이프라인 도구 분류 | ci-cd, devops, github-actions, husky, jenkins, argocd |
 | frontend/browser/workers.md | Browser Workers | browser, web-worker, service-worker, pwa, performance |
 | frontend/browser/network-request-flow.md | 브라우저 네트워크 요청 흐름 | browser, networking, service-worker, cdn, middleware, caching, performance |
+
+| frontend/javascript/promise-resolve-vs-new-promise.md | Promise.resolve vs new Promise | javascript, promise, async, microtask |
