@@ -94,3 +94,5 @@
 | frontend/browser/network-request-flow.md | 브라우저 네트워크 요청 흐름 | browser, networking, service-worker, cdn, middleware, caching, performance |
 
 | frontend/javascript/promise-resolve-vs-new-promise.md | Promise.resolve vs new Promise | javascript, promise, async, microtask |
+
+| frontend/library/zod-typescript-enum-pitfall.md | Zod와 TypeScript enum / namespace 병합의 함정 | zod, typescript, enum, validation, schema |
