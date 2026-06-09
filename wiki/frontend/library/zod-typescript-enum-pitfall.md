@@ -1,6 +1,9 @@
 ---
 title: Zod와 TypeScript enum / namespace 병합의 함정
-aliases: [z.nativeEnum 함정, zod nativeEnum, zod enum namespace]
+aliases:
+  - z.nativeEnum 함정
+  - zod nativeEnum
+  - zod enum namespace
 tags:
   - zod
   - typescript
@@ -8,7 +11,7 @@ tags:
   - validation
   - schema
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-09
 ---
 
 ## 정의
@@ -91,9 +94,30 @@ z.number().refine(
 zod 연동 경계에서 마찰이 구조적으로 발생한다. 그 경계에서만 `z.union([z.literal()])`로
 명시하거나 헬퍼를 enum에서 떼어내는 절충이 현실적이다.
 
+
+### as const의 DX 비용과 절충 (trade-off)
+"as const 권장"은 무비용이 아니다. 커뮤니티도 *"무지성으로 enum을 as const로 갈아끼우지 말라"*고 경고한다. enum이 여전히 유리하거나 as const가 불편한 지점:
+
+| 항목 | enum | as const 객체 | 메모 |
+|---|---|---|---|
+| 선언 | `enum X { READ=1 }` 한 줄 | 값 + `type X = (typeof X)[keyof typeof X]` 이중 선언 | as const 보일러플레이트 |
+| reverse mapping(값→키) | 숫자 enum 자동 | 수동(`Object.values`/헬퍼) | 단 이 자동화가 곧 nativeEnum 함정의 원인 |
+| namespace 병합 | 가능(라벨/파싱 헬퍼를 한 심볼에) | 불가 → 헬퍼 별도 분리 | 이 프로젝트 common-values 손실 지점 |
+| 런타임 emit | ~150B + IIFE, tree-shaking 불리 | ~50B 순수 객체, const enum은 0B(인라인) | 번들 측면은 as const 우위 |
+| 참조 사용감 | `X.READ`, 자동완성 | 동일 | DX 차이 없음 |
+| iteration | reverse 키 섞여 나옴(필터 필요) | `Object.values(X)` 깔끔 | as const 우위 |
+| 혼합 타입(문자열+숫자) | 불가 | 가능 | as const 우위 |
+
+핵심: enum 전면 폐기가 아니라 **"reverse mapping이 필요한가 / 런타임 enum 객체가 필요한가 / 숫자 enum인가"**를 따져 고르는 문제다. 라벨·파싱 헬퍼 묶음의 편의가 크면 enum을 유지하고, **검증(zod) 경계에서만** `z.union([z.literal()])`로 막거나 헬퍼를 분리하는 절충이 현실적이다.
+
 ## 출처 / 참고
 - Zod v4 Migration guide — nativeEnum deprecated: https://zod.dev/v4/changelog
 - Zod API (Enums, TS enum not recommended 주석): https://zod.dev/api
 - zod Discussion #2125 — z.enum breaks with actual enum / Object.values
 - Why I don't like TypeScript enums — Matt Pocock: https://www.totaltypescript.com/why-i-dont-like-typescript-enums
 - [[Promise.resolve vs new Promise]] — 같은 JS/TS 기초 맥락
+- Stop blindly replacing `enum` with `as const` — DEV: https://dev.to/kelvynthai/stop-blindly-replacing-enum-with-as-const-56o8
+- TypeScript Enums Showdown: `const enum` vs `enum` vs `object as const` — DEV: https://dev.to/maximlogunov/typescript-enums-showdown-const-enum-vs-enum-vs-object-as-const-4dg8
+- Use TypeScript const assertion instead of enums (drawbacks & solutions) — DEV: https://dev.to/ylerjen/use-typescript-const-assertion-instead-of-enums-mfn
+- Why to use const assertions instead of enums — SSW.Rules: https://www.ssw.com.au/rules/typescript-enums/
+- TypeScript Handbook — Enums (reverse mapping): https://www.typescriptlang.org/docs/handbook/enums.html
