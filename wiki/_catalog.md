@@ -96,3 +96,5 @@
 | frontend/javascript/promise-resolve-vs-new-promise.md | Promise.resolve vs new Promise | javascript, promise, async, microtask |
 
 | frontend/library/zod-typescript-enum-pitfall.md | Zod와 TypeScript enum / namespace 병합의 함정 | zod, typescript, enum, validation, schema |
+
+| concepts/security/login-credential-encryption.md | 로그인 자격증명 암호화 방식 (AES vs RSA) | security, encryption, aes, rsa, authentication |
