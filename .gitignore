@@ -1,0 +1,10 @@
+.trash/
+.DS_Store
+
+# Obsidian volatile workspace state (causes sync conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+
+# Local-only MCP connector plugin — contains a bearer token, must NOT be pushed to the public repo
+.obsidian/plugins/mcp-tools-istefox/
