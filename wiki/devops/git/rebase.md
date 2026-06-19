@@ -169,3 +169,4 @@ git reset --hard ORIG_HEAD
 
 - [Git 공식 문서 - git rebase](https://git-scm.com/docs/git-rebase)
 - [[stacked-prs-rebase-onto|Git 스택 PR - rebase --onto로 정리하기]]
+- [[브랜치를 다른 브랜치로 강제 덮어쓰기]]

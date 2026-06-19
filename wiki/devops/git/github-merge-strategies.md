@@ -79,3 +79,4 @@ GitHub PR을 병합할 때 선택할 수 있는 3가지 merge 전략. 각 전략
 - [GitHub Docs - Merging a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges)
 - [[stacked-prs-rebase-onto|Git 스택 PR - rebase --onto]]
 - [[rebase-deep-dive|Git Rebase 심화 가이드]]
+- [[브랜치를 다른 브랜치로 강제 덮어쓰기]]
