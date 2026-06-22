@@ -94,3 +94,4 @@ const { Worker } = require('worker_threads');
 - [[rendering-pipeline|브라우저 렌더링 파이프라인]] — 브라우저 측 이벤트 루프와 비교
 - [[request-animation-frame]] — 브라우저의 프레임 기반 스케줄링
 - [[libuv-thread-pool|libuv Thread Pool 심화]] — 스레드 풀 내부 구조, 포화 동작, 사이징 가이드
+- 관련 위키: [[ipv4-vs-ipv6]]

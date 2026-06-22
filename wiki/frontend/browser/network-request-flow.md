@@ -94,3 +94,4 @@ reviewed: false
 - [[workers|Browser Workers]]
 - [[rendering-pipeline|브라우저 렌더링 파이프라인]]
 - [[edge-computing|프론트엔드 Edge Computing]]
+- 관련 위키: [[ipv4-vs-ipv6]]

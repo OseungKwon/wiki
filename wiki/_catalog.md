@@ -100,3 +100,5 @@
 | concepts/security/login-credential-encryption.md | 로그인 자격증명 암호화 방식 (AES vs RSA) | security, encryption, aes, rsa, authentication |
 
 | devops/git/force-overwrite-branch.md | 브랜치를 다른 브랜치로 강제 덮어쓰기 | git, reset, force-push, workflow |
+
+| concepts/networking/ipv4-vs-ipv6.md | IPv4 vs IPv6 | networking, ipv4, ipv6, dns |

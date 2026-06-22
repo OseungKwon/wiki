@@ -52,3 +52,4 @@ ssh user@server.com
 ## 출처 / 참고
 - [GitHub 공식 - SSH 키 생성](https://docs.github.com/en/authentication/connecting-to-github-with-ssh)
 - [[login-credential-encryption|로그인 자격증명 암호화 방식 (AES vs RSA)]] — 비대칭 암호의 로그인 적용 사례
+- 관련 위키: [[ipv4-vs-ipv6]]
